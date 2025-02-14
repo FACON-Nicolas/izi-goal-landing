@@ -1,0 +1,45 @@
+{
+  "home": {
+    "title": "Atteignez vos objectifs sportifs en toute simplicité",
+    "subtitle": "IziGoal, votre compagnon d'entraînement personnel qui rend le suivi de vos progrès simple et motivant",
+    "appStore": "Télécharger sur l'App Store",
+    "playStore": "Disponible sur Google Play"
+  },
+  "privacy": {
+    "title": "Politique de Confidentialité",
+    "lastUpdate": "Dernière mise à jour",
+    "welcome": "Bienvenue sur IziGoal. La protection de vos données personnelles est notre priorité.",
+    "dataCollection": {
+      "title": "Collecte et Utilisation des Données",
+      "description": "IziGoal est une application qui fonctionne entièrement en local sur votre appareil. Nous ne collectons, ne stockons ni ne transmettons aucune donnée personnelle à des serveurs externes.",
+      "points": {
+        "storage": "Toutes vos données sont stockées uniquement sur votre appareil",
+        "noAccount": "Aucune création de compte n'est nécessaire",
+        "noSharing": "Aucune donnée n'est partagée avec des tiers"
+      }
+    },
+    "localStorage": {
+      "title": "Stockage Local",
+      "description": "Les données de vos objectifs et progrès sont exclusivement sauvegardées dans le stockage local de votre appareil. Vous gardez le contrôle total de vos données et pouvez les supprimer à tout moment en désinstallant l'application."
+    },
+    "permissions": {
+      "title": "Permissions de l'Application",
+      "description": "IziGoal ne demande aucune permission spéciale sur votre appareil au-delà de celles strictement nécessaires à son fonctionnement de base."
+    },
+    "legal": {
+      "title": "Mentions Légales",
+      "developedBy": "IziGoal est une application mobile développée et maintenue par :"
+    },
+    "modifications": {
+      "title": "Modifications de la Politique de Confidentialité",
+      "description": "Nous nous réservons le droit de modifier cette politique de confidentialité à tout moment. Les modifications entrent en vigueur dès leur publication sur cette page."
+    },
+    "contact": {
+      "title": "Contact",
+      "description": "Pour toute question concernant cette politique de confidentialité, vous pouvez nous contacter à :"
+    }
+  },
+  "navigation": {
+    "switchLocale": "Switch to English"
+  }
+}

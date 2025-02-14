@@ -1,0 +1,45 @@
+{
+  "home": {
+    "title": "Achieve your fitness goals with ease",
+    "subtitle": "IziGoal, your personal training companion that makes tracking your progress simple and motivating",
+    "appStore": "Download on the App Store",
+    "playStore": "Get it on Google Play"
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdate": "Last update",
+    "welcome": "Welcome to IziGoal. The protection of your personal data is our priority.",
+    "dataCollection": {
+      "title": "Data Collection and Usage",
+      "description": "IziGoal is an application that works entirely locally on your device. We do not collect, store, or transmit any personal data to external servers.",
+      "points": {
+        "storage": "All your data is stored only on your device",
+        "noAccount": "No account creation required",
+        "noSharing": "No data is shared with third parties"
+      }
+    },
+    "localStorage": {
+      "title": "Local Storage",
+      "description": "Your goals and progress data are exclusively saved in your device's local storage. You maintain complete control over your data and can delete it at any time by uninstalling the application."
+    },
+    "permissions": {
+      "title": "App Permissions",
+      "description": "IziGoal does not request any special permissions on your device beyond those strictly necessary for basic operation."
+    },
+    "legal": {
+      "title": "Legal Notice",
+      "developedBy": "IziGoal is a mobile application developed and maintained by:"
+    },
+    "modifications": {
+      "title": "Privacy Policy Updates",
+      "description": "We reserve the right to modify this privacy policy at any time. Changes take effect as soon as they are published on this page."
+    },
+    "contact": {
+      "title": "Contact",
+      "description": "For any questions regarding this privacy policy, you can contact us at:"
+    }
+  },
+  "navigation": {
+    "switchLocale": "Passer en Français"
+  }
+}
