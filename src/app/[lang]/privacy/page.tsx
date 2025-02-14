@@ -1,11 +1,16 @@
 import { getDictionary } from '@/get-dictionary';
 import { Locale } from '@/i18n-config';
 
-export default async function Privacy({
-  params: { lang },
-}: {
-  params: { lang: Locale };
-}) {
+type Props = {
+  lang: Locale;
+};
+
+export async function generateStaticParams() {
+  return ['fr', 'en'].map((lang) => ({ lang }));
+}
+
+export default async function Privacy({ params }: { params: Promise<Props> }) {
+  const { lang } = await params;
   const dict = await getDictionary(lang);
 
   return (

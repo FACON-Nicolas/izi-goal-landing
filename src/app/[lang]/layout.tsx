@@ -1,20 +1,15 @@
-import { Locale, i18n } from '@/i18n-config';
+'use client';
+
 import LocaleSwitcher from '@/components/locale-switcher';
 import '../globals.css';
 
-export function generateStaticParams() {
-  return i18n.locales.map((locale) => ({ lang: locale }));
-}
-
-export default function RootLayout({
-  children,
-  params,
-}: {
+type Props = {
   children: React.ReactNode;
-  params: { lang: Locale };
-}) {
+};
+
+export default function RootLayout({ children }: Props) {
   return (
-    <html lang={params.lang}>
+    <html>
       <body className='bg-background text-primary'>
         <header className='px-4 bg-background text-text-button'>
           <LocaleSwitcher />

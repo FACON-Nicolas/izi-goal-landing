@@ -2,11 +2,16 @@ import Image from 'next/image';
 import { getDictionary } from '@/get-dictionary';
 import { Locale } from '@/i18n-config';
 
-export default async function Home({
-  params: { lang },
-}: {
-  params: { lang: Locale };
-}) {
+type Props = {
+  lang: Locale;
+};
+
+export async function generateStaticParams() {
+  return ['fr', 'en'].map((lang) => ({ lang }));
+}
+
+export default async function Home({ params }: { params: Promise<Props> }) {
+  const { lang } = await params;
   const dict = await getDictionary(lang);
 
   return (
