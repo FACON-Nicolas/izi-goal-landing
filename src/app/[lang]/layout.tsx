@@ -2,11 +2,11 @@ import { Locale, i18n } from '@/i18n-config';
 import LocaleSwitcher from '@/components/locale-switcher';
 import '../globals.css';
 
-export async function generateStaticParams() {
+export function generateStaticParams() {
   return i18n.locales.map((locale) => ({ lang: locale }));
 }
 
-export default async function RootLayout({
+export default function RootLayout({
   children,
   params,
 }: {
